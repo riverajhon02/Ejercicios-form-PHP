@@ -1,0 +1,66 @@
+
+.lab{
+    display: block;
+    color: aliceblue;
+    margin-left: 65px;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+.formulario input{
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    height: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#boton{
+    width: 100px;
+    background-color: seagreen;
+    font-weight: bold;
+    border: 1px solid springgreen;
+    height: 30px;
+    color: white;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.formulario .radio{
+    width: 15px;
+}
+.forma li label{
+    width: 18%;
+    float: left;
+    position: relative;
+    bottom: 10px;
+}
+
+.forma li input{
+    width: 18%;
+    float: left;
+}
+.forma{
+    width: 80%;
+    height: 80px;
+    border: 1px solid springgreen;
+    position: relative;
+    bottom: 20px;
+}
+.forma li{
+    display: inline;
+}
+div{
+    margin: auto;
+    border: 1px solid springgreen;
+    width: 700px;
+    margin-top: 30px;
+    background-color: teal;
+    
+}
+

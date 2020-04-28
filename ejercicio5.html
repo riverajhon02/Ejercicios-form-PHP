@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">    
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="formulario">
+        <form action="descuento.php" method="GET">
+            <label class="lab">Nombre Articulo</label>
+            <input type="text" name="nombre">
+            <label class="lab">Clave</label>
+            <div class="forma">
+                <li><label class="lab">Clave 1</label></li>
+                <li><input type="radio" name="estado" value="1" class="radio"></li>
+                <li><label class="lab">Clave 2</label></li>
+                <li><input type="radio" name="estado" value="2" class="radio"></li>
+            </div>
+            <label class="lab">Precio</label>
+            <input type="number" name="precio">
+           <br><br>
+            <input type="submit" name="operar" value="Calcular" id="boton">
+          </form>
+    </div>
+    
+</body>
+</html>
